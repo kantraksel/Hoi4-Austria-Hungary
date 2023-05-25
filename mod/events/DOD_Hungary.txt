@@ -28,7 +28,7 @@ country_event = {
 			}
 			random_list = {
 				70 = { AUS = { country_event = { id = DOD_hungary.2 hours = 24 } } } #country votes yes
-				30 = { AUS = { country_event = { id = DOD_hungary.3 hours = 24 } } } #country votes no
+				0 = { AUS = { country_event = { id = DOD_hungary.3 hours = 24 } } } #country votes no
 			}
 		}
 		if = {
@@ -46,7 +46,7 @@ country_event = {
 			}
 			random_list = {
 				80 = { AUS = { country_event = { id = DOD_hungary.2 hours = 24 } } } #country votes yes
-				20 = { AUS = { country_event = { id = DOD_hungary.3 hours = 24 } } } #country votes no
+				0 = { AUS = { country_event = { id = DOD_hungary.3 hours = 24 } } } #country votes no
 			}
 		}
 		if = {
@@ -58,7 +58,7 @@ country_event = {
 			}
 			random_list = {
 				95 = { AUS = { country_event = { id = DOD_hungary.2 hours = 24 } } } #country votes yes
-				5 = { AUS = { country_event = { id = DOD_hungary.3 hours = 24 } } } #country votes no
+				0 = { AUS = { country_event = { id = DOD_hungary.3 hours = 24 } } } #country votes no
 			}
 		}
 	}
@@ -66,7 +66,7 @@ country_event = {
 	option = { #no
 		name = DOD_hungary.1.b
 		ai_chance = {
-			factor = 20
+			factor = 0
 			modifier = {
 				has_government = democratic
 				factor = 0
@@ -77,7 +77,7 @@ country_event = {
 
 	option = { #sure, but we'll make sure it gets the right result
 		name = DOD_hungary.1.c
-		ai_chance = { factor = 160 }
+		ai_chance = { factor = 0 }
 		trigger = {
 			OR = {
 				has_government = communism
@@ -319,7 +319,7 @@ country_event = {
 	option = { #A close association status
 		name = DOD_hungary.10.b
 		ai_chance = {
-			factor = 40
+			factor = 0
 			modifier = {
 				HUN = {
 					is_ai = yes
@@ -332,7 +332,7 @@ country_event = {
 	option = { #Refuse
 		name = DOD_hungary.10.c
 		ai_chance = {
-			factor = 30
+			factor = 0
 			modifier = {
 				is_in_faction = yes
 				factor = 2 #we're good thanks
